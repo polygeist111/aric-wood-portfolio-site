@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body { height: 100%; }
+body { @apply bg-white text-black antialiased; }
+.container { @apply max-w-6xl mx-auto px-6; }
+h1,h2,h3 { @apply tracking-tight; }
+a { @apply underline-offset-4; }
+.btn { @apply inline-flex items-center rounded-full px-3 py-2 text-sm; }
+.btn-outline { @apply border border-black text-black no-underline; }
+.btn-solid { @apply bg-black text-white no-underline; }
+.btn-red { @apply bg-brand-red text-white no-underline; }
+.card { @apply border border-gray-200 rounded-2xl p-5; }

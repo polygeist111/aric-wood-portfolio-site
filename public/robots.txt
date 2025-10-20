@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aricwood.com/sitemap.xml
