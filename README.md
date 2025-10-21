@@ -1,3 +1,6 @@
+### NOTE:
+This project is not my work. This project is largely vibe coded. I do not endorse the use of AI in this way, but I am managing the repo as a favor to someone. - Thalia
+
 # Aric Wood — Strategy to Reality (Next.js + Tailwind + Cloudflare Pages)
 
 ## Local
