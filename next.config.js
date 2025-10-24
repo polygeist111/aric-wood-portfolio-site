@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
+// removed portion given by vibecode, replaced with section from github pages tutorial
+//const nextConfig = {
+//  experimental: { serverActions: { bodySizeLimit: '2mb' } },
+//};
 const nextConfig = {
-  experimental: { serverActions: { bodySizeLimit: '2mb' } },
+  basePath: "/aric-wood-portfolio-site",
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
 };
+
 module.exports = nextConfig;
