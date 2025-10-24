@@ -1,6 +1,33 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/api/contact/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/contact/route.js"
+      ],
+      "name": "app/api/contact/route",
+      "page": "/api/contact/route",
+      "matchers": [
+        {
+          "regexp": "^/api/contact$",
+          "originalSource": "/api/contact"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {
+        "previewModeId": "d5fe31c4da26245ab4515c1a5b7b8127",
+        "previewModeSigningKey": "8ccd7687b6b0c1d7cf7b1219cdc0ca41608908cbcb1e10060b848a52ab84a4b8",
+        "previewModeEncryptionKey": "a16537efd490688de50c8652e53801b72d5089e11c1b40619287732b79996b73"
+      }
+    }
+  },
   "sortedMiddleware": []
 }
