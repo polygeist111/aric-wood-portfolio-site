@@ -113,7 +113,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full aspect-[3/4] object-cover rounded-2xl border border-gray-200" />
+              <img src="https://polygeist111.github.io/aric-wood-portfolio-site/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full aspect-[3/4] object-cover rounded-2xl border border-gray-200" />
               <p className="mt-2 text-xs">Cover of The Strategy Activation Playbook</p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Page() {
               <p className="mt-3">With leadership roles at Intuit and Epinions.com, plus strategy work at Bain & Company, Aric brings deep experience in business strategy and innovation. He has also led and served on multiple nonprofit and for‑profit boards. He holds a BA from Johns Hopkins University and an MBA from Harvard Business School.</p>
             </div>
             <div className="lg:col-span-2">
-              <img src="/AW5.jpeg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
+              <img src="https://polygeist111.github.io/aric-wood-portfolio-site/AW5.jpeg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
               <div className="flex gap-3 mt-3 text-sm">
                 <a href="#" className="btn btn-outline no-underline">Media Kit</a>
                 <a href="#" className="btn btn-outline no-underline">LinkedIn</a>

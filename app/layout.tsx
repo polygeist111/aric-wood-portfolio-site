@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.",
     images: ["/og.jpg"],
   },
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: "https://polygeist111.github.io/aric-wood-portfolio-site/favicon.ico" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
