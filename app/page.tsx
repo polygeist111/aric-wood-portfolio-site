@@ -6,13 +6,14 @@ export default function Page() {
     { title: "Facilitation", body: "Plan and run high-impact workshops and executive offsites that drive decisions and shared ownership." }
   ];
   const playbooks = [
-    { title: "ROI of Change Playbook", href: "#" },
-    { title: "Building the Business Case for Transformation", href: "#" },
-    { title: "Building A Future-Proof Transformation Office", href: "#" }
+    { title: "ROI of Change Playbook", href: "https://tigerhall.com/playbooks/how-to-measure-roi-in-a-change-initiative-a-playbook-for-proving-the-value-of-transformation-efforts" },
+    { title: "Building the Business Case for Transformation", href: "https://tigerhall.com/change-activation/how-to-build-the-business-case-for-resource-investments" },
+    { title: "Building A Future-Proof Transformation Office", href: "https://tigerhall.com/change-activation/building-a-future-proof-transformation-office" }
   ];
   const webinars = [
-    { title: "Change Activation 1: Fundamentals", href: "#" },
-    { title: "Measuring the ROI of Change", href: "#" }
+    { title: "Change Activation 1: Fundamentals", href: "https://tigerhall.com/change-activation/the-fundamentals-of-change-activation" },
+    { title: "Measuring the ROI of Change", href: "https://tigerhall.com/change-activation/measure-the-roi-of-change-transformation" },
+    { title: "Overcoming Change Fatigue by Running Change Like a Marketer", href: "https://tigerhall.com/change-activation/overcoming-change-fatigue-by-running-change-like-a-marketer"}
   ];
   const podcasts = [
     { title: "Building the Business Case for Change", href: "#" },
@@ -113,7 +114,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="https://polygeist111.github.io/aric-wood-portfolio-site/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full aspect-[3/4] object-cover rounded-2xl border border-gray-200" />
+              <img src="https://polygeist111.github.io/aric-wood-portfolio-site/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full aspect-[3/4] object-cover rounded-2xl border border-gray-200 contained-image" />
               <p className="mt-2 text-xs">Cover of The Strategy Activation Playbook</p>
             </div>
           </div>
@@ -132,7 +133,7 @@ export default function Page() {
               <img src="https://polygeist111.github.io/aric-wood-portfolio-site/AW5.jpeg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
               <div className="flex gap-3 mt-3 text-sm">
                 <a href="#" className="btn btn-outline no-underline">Media Kit</a>
-                <a href="#" className="btn btn-outline no-underline">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/aric-wood-588272/" className="btn btn-outline no-underline">LinkedIn</a>
               </div>
               <p className="mt-2 text-xs">(Replace placeholders with headshot and media kit link)</p>
             </div>
