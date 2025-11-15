@@ -6,18 +6,18 @@ export default function Page() {
     { title: "Facilitation", body: "Plan and run high-impact workshops and executive offsites that drive decisions and shared ownership." }
   ];
   const playbooks = [
-    { title: "ROI of Change Playbook", href: "https://tigerhall.com/playbooks/how-to-measure-roi-in-a-change-initiative-a-playbook-for-proving-the-value-of-transformation-efforts" },
-    { title: "Building the Business Case for Transformation", href: "https://tigerhall.com/change-activation/how-to-build-the-business-case-for-resource-investments" },
-    { title: "Building A Future-Proof Transformation Office", href: "https://tigerhall.com/change-activation/building-a-future-proof-transformation-office" }
+    { title: "ROI of Change Playbook", target: "_blank", href: "https://tigerhall.com/playbooks/how-to-measure-roi-in-a-change-initiative-a-playbook-for-proving-the-value-of-transformation-efforts" },
+    { title: "Building the Business Case for Transformation", target: "_blank", href: "https://tigerhall.com/change-activation/how-to-build-the-business-case-for-resource-investments" },
+    { title: "Building A Future-Proof Transformation Office", target: "_blank", href: "https://tigerhall.com/change-activation/building-a-future-proof-transformation-office" }
   ];
   const webinars = [
-    { title: "Change Activation 1: Fundamentals", href: "https://tigerhall.com/change-activation/the-fundamentals-of-change-activation" },
-    { title: "Measuring the ROI of Change", href: "https://tigerhall.com/change-activation/measure-the-roi-of-change-transformation" },
-    { title: "Overcoming Change Fatigue by Running Change Like a Marketer", href: "https://tigerhall.com/change-activation/overcoming-change-fatigue-by-running-change-like-a-marketer"}
+    { title: "Change Activation 1: Fundamentals", target: "_blank", href: "https://tigerhall.com/change-activation/the-fundamentals-of-change-activation" },
+    { title: "Measuring the ROI of Change", target: "_blank", href: "https://tigerhall.com/change-activation/measure-the-roi-of-change-transformation" },
+    { title: "Overcoming Change Fatigue by Running Change Like a Marketer", target: "_blank", href: "https://tigerhall.com/change-activation/overcoming-change-fatigue-by-running-change-like-a-marketer"}
   ];
   const podcasts = [
-    { title: "Building the Business Case for Change", href: "#" },
-    { title: "CFOs Don’t Fund Feelings", href: "#" }
+    { title: "Building the Business Case for Change", target: "_blank", href: "#" },
+    { title: "CFOs Don’t Fund Feelings", target: "_blank", href: "#" }
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Page() {
                 {playbooks.map((p) => (
                   <li key={p.title} className="flex justify-between py-3 border-b border-gray-100">
                     <span>{p.title}</span>
-                    <a href={p.href} className="no-underline text-black">Open →</a>
+                    <a target="_blank" href={p.href} className="no-underline text-black">Open →</a>
                   </li>
                 ))}
               </ul>
@@ -82,7 +82,7 @@ export default function Page() {
                 {webinars.map((w) => (
                   <li key={w.title} className="flex justify-between py-3 border-b border-gray-100">
                     <span>{w.title}</span>
-                    <a href={w.href} className="no-underline text-black">View →</a>
+                    <a target="_blank" href={w.href} className="no-underline text-black">View →</a>
                   </li>
                 ))}
               </ul>
@@ -94,7 +94,7 @@ export default function Page() {
                 {podcasts.map((p) => (
                   <li key={p.title} className="card flex items-center justify-between">
                     <span>{p.title}</span>
-                    <a href={p.href} className="no-underline text-black">Listen →</a>
+                    <a target="_blank" href={p.href} className="no-underline text-black">Listen →</a>
                   </li>
                 ))}
               </ul>
@@ -109,7 +109,7 @@ export default function Page() {
               <p className="mt-3">Organizations spend over $160 billion a year hiring consultants to develop and execute strategies, and yet 80% of corporate strategies fail. Why? Because we forget the most important factor in successfully executing strategy: people.</p>
               <p className="mt-3">With <em>The Strategy Activation Playbook</em>, I share a practical methodology to align and activate the people in your organization to execute your strategy and realize your vision—communicating clearly, equipping teams, and embedding new ways of working.</p>
               <div className="flex gap-3 mt-4 flex-wrap">
-                <a href="https://www.amazon.com/Strategy-Activation-Playbook-Practical-Strategies/dp/1637741820?ref_=ast_author_dp&th=1&psc=1" target="_blank" className="btn btn-red">Purchase on Amazon →</a>
+                <a target="_blank" href="https://www.amazon.com/Strategy-Activation-Playbook-Practical-Strategies/dp/1637741820?ref_=ast_author_dp&th=1&psc=1" className="btn btn-red">Purchase on Amazon →</a>
                 <a href="#contact" className="btn btn-outline">Book a Talk →</a>
               </div>
             </div>
@@ -132,8 +132,8 @@ export default function Page() {
             <div className="lg:col-span-2">
               <img src="https://polygeist111.github.io/aric-wood-portfolio-site/AW5.jpeg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
               <div className="flex gap-3 mt-3 text-sm">
-                <a href="#" className="btn btn-outline no-underline">Media Kit</a>
-                <a href="https://www.linkedin.com/in/aric-wood-588272/" className="btn btn-outline no-underline">LinkedIn</a>
+                <a target="_blank" href="#" className="btn btn-outline no-underline">Media Kit</a>
+                <a target="_blank" href="https://www.linkedin.com/in/aric-wood-588272/" className="btn btn-outline no-underline">LinkedIn</a>
               </div>
               <p className="mt-2 text-xs">(Replace placeholders with headshot and media kit link)</p>
             </div>
