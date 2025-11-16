@@ -38,7 +38,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               gtag('js', new Date()); gtag('config', '${gaId}');` }} />
           </>
         ) : null}
-        <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "REPLACE_WITH_CLOUDFLARE_TOKEN"}'></script>
       </body>
     </html>
   );
