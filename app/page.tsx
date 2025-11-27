@@ -35,7 +35,7 @@ export default function Page() {
 
       <main id="home">
         <section className="border-b border-gray-200">
-          <div className="container py-16 grid gap-6 lg:grid-cols-2">
+          <div className="container py-16 flex gap-6 flex-wrap">
             <div className="max-w-400">
               <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
               <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
@@ -45,7 +45,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain pt-10" />
+              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain pt-3" />
             </div>
           </div>
         </section>
