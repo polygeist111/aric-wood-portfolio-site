@@ -38,14 +38,14 @@ export default function Page() {
           <div className="container py-16 grid gap-6 lg:grid-cols-2">
             <div className="max-w-400">
               <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
-              <p className="max-w-2xl">My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
+              <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
               <div className="flex gap-3 flex-wrap">
                 <a href="#publications" className="btn btn-solid">View Publications →</a>
                 <a href="#contact" className="btn btn-outline">Contact Me →</a>
               </div>
             </div>
             <div>
-              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain" />
+              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain pt-10" />
             </div>
           </div>
         </section>
