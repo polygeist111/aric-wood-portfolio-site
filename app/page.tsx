@@ -36,11 +36,11 @@ export default function Page() {
       <main id="home">
         <div className="max-w-400">
           <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
-          <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
+          {/*<p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="#publications" className="btn btn-solid">View Publications →</a>
             <a href="#contact" className="btn btn-outline">Contact Me →</a>
-          </div>
+          </div>*/}
         </div>
         <section className="border-b border-gray-200">
           <div className="container py-16 flex gap-6 flex-wrap">
