@@ -16,4 +16,3 @@ a { @apply underline-offset-4; }
 .card { @apply border border-gray-200 rounded-2xl p-5; }
 
 /* specific custom configs */
-.contained-image { max-width: 100%; height: auto; }

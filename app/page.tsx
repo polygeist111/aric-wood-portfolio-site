@@ -117,7 +117,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full aspect-[3/4] object-cover rounded-2xl border border-gray-200 contained-image" />
+              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full h-full aspect-[3/4] object-contain rounded-2xl border border-gray-200" />
               <p className="mt-2 text-xs">Cover of The Strategy Activation Playbook</p>
             </div>
           </div>
