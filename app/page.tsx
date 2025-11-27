@@ -36,7 +36,7 @@ export default function Page() {
       <main id="home">
         <section className="border-b border-gray-200">
           <div className="container py-16 flex gap-6 flex-wrap">
-            <div className="max-w-400">
+            <div className="w-full max-w-400">
               <h1 className="w-full text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
               <p className="w-full">My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
               <div className="w-full flex gap-3 flex-wrap">
