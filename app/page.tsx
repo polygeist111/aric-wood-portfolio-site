@@ -114,7 +114,7 @@ export default function Page() {
               <p className="mt-3">Organizations spend over $160 billion a year hiring consultants to develop and execute strategies, and yet 80% of corporate strategies fail. Why? Because we forget the most important factor in successfully executing strategy: people.</p>
               <p className="mt-3">With <em>The Strategy Activation Playbook</em>, I share a practical methodology to align and activate the people in your organization to execute your strategy and realize your vision—communicating clearly, equipping teams, and embedding new ways of working.</p>
               <div className="flex gap-3 mt-4 flex-wrap">
-                <a target="_blank" href="https://www.amazon.com/Strategy-Activation-Playbook-Practical-Strategies/dp/1637741820?ref_=ast_author_dp&th=1&psc=1" className="btn btn-transforma-red">Purchase on Amazon →</a>
+                <a target="_blank" href="https://www.amazon.com/Strategy-Activation-Playbook-Practical-Strategies/dp/1637741820?ref_=ast_author_dp&th=1&psc=1" className="btn btn-red">Purchase on Amazon →</a>
                 <a href="#contact" className="btn btn-outline">Book a Talk →</a>
               </div>
             </div>
