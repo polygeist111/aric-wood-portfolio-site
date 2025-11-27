@@ -35,7 +35,7 @@ export default function Page() {
       
       <main id="home">
         <section id="hook" className="border-b border-gray-200">
-          <div className="container py-16 flex gap-6 flex-wrap">
+          <div className="container py-16 grid grid-cols-[min-content_1fr] gap-6">
             <div className="max-w-[400px]">
               <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
               <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
@@ -119,7 +119,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full h-full object-contain rounded-2xl border border-gray-200" />
+              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full h-full md:w-max[50%] object-contain rounded-2xl border border-gray-200" />
               <p className="mt-2 text-xs">Cover of The Strategy Activation Playbook</p>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function Page() {
               <p className="mt-3">With leadership roles at Intuit and Epinions.com, plus strategy work at Bain & Company, Aric brings deep experience in business strategy and innovation. He has also led and served on multiple nonprofit and for‑profit boards. He holds a BA from Johns Hopkins University and an MBA from Harvard Business School.</p>
             </div>
             <div className="lg:col-span-2">
-              <img src="/AW5.jpg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
+              <img src="/AW5.jpg" alt="Aric Wood headshot" className="w-full md:w-max-[50%] rounded-2xl border border-gray-200 object-cover" />
               <div className="flex gap-3 mt-3 text-sm">
                 <a target="_blank" href="#" className="btn btn-outline no-underline">Media Kit</a>
                 <a target="_blank" href="https://www.linkedin.com/in/aric-wood-588272/" className="btn btn-outline no-underline">LinkedIn</a>
