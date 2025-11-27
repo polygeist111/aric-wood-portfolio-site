@@ -35,15 +35,17 @@ export default function Page() {
 
       <main id="home">
         <section className="border-b border-gray-200">
-          <div className="container py-16 grid gap-6 max-w-400">
-            <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
-            <p className="max-w-2xl">My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
-            <div className="flex gap-3 flex-wrap">
-              <a href="#publications" className="btn btn-solid">View Publications →</a>
-              <a href="#contact" className="btn btn-outline">Contact Me →</a>
+          <div className="container py-16 grid gap-6 lg:grid-cols-2">
+            <div className="max-w-400">
+              <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
+              <p className="max-w-2xl">My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
+              <div className="flex gap-3 flex-wrap">
+                <a href="#publications" className="btn btn-solid">View Publications →</a>
+                <a href="#contact" className="btn btn-outline">Contact Me →</a>
+              </div>
             </div>
-            <div className="container">
-              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full object-cover" />
+            <div>
+              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain" />
             </div>
           </div>
         </section>
@@ -117,7 +119,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full h-full aspect-[3/4] object-contain rounded-2xl border border-gray-200" />
+              <img src="/book-cover.jpg" alt="Strategy Activation Playbook Cover" className="w-full h-full object-contain rounded-2xl border border-gray-200" />
               <p className="mt-2 text-xs">Cover of The Strategy Activation Playbook</p>
             </div>
           </div>
