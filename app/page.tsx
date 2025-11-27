@@ -26,7 +26,7 @@ export default function Page() {
         <div className="container flex items-center justify-between h-16">
           <a href="#home" className="font-semibold tracking-tight no-underline text-black">ARIC WOOD</a>
           <nav className="flex gap-4 text-xs uppercase tracking-widest">
-            {[["#home","Home"],["#focus-areas","Focus Areas"],["#resources","Playbooks | Webinars | Podcasts"],["#book","Book"],["#bio","Bio"],["#contact","Contact"]].map(([href,label])=> (
+            {[["#home","Home"],["#focus-areas","Focus Areas"],["#resources","Publications"],["#book","Book"],["#bio","Bio"],["#contact","Contact"]].map(([href,label])=> (
               <a key={href} href={href} className="no-underline text-black">{label}</a>
             ))}
           </nav>
@@ -35,12 +35,15 @@ export default function Page() {
 
       <main id="home">
         <section className="border-b border-gray-200">
-          <div className="container py-16 grid gap-6">
+          <div className="container py-16 grid gap-6 max-w-400">
             <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
             <p className="max-w-2xl">My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
             <div className="flex gap-3 flex-wrap">
-              <a href="#focus-areas" className="btn btn-outline">Explore Focus Areas →</a>
-              <a href="#resources" className="btn btn-solid">View Resources →</a>
+              <a href="#publications" className="btn btn-solid">View Publications →</a>
+              <a href="#contact" className="btn btn-outline">Contact Me →</a>
+            </div>
+            <div className="container">
+              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full object-cover" />
             </div>
           </div>
         </section>
@@ -59,9 +62,9 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="resources" className="border-b border-gray-200">
+        <section id="publications" className="border-b border-gray-200">
           <div className="container py-12">
-            <h2 className="text-2xl m-0">Resources</h2>
+            <h2 className="text-2xl m-0">Publications</h2>
             <p className="mt-2">Download playbooks, view webinars, or listen to podcasts.</p>
 
             <div className="mt-6">
@@ -130,7 +133,7 @@ export default function Page() {
               <p className="mt-3">With leadership roles at Intuit and Epinions.com, plus strategy work at Bain & Company, Aric brings deep experience in business strategy and innovation. He has also led and served on multiple nonprofit and for‑profit boards. He holds a BA from Johns Hopkins University and an MBA from Harvard Business School.</p>
             </div>
             <div className="lg:col-span-2">
-              <img src="/AW5.jpeg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
+              <img src="/AW5.jpg" alt="Aric Wood headshot" className="w-full rounded-2xl border border-gray-200 object-cover" />
               <div className="flex gap-3 mt-3 text-sm">
                 <a target="_blank" href="#" className="btn btn-outline no-underline">Media Kit</a>
                 <a target="_blank" href="https://www.linkedin.com/in/aric-wood-588272/" className="btn btn-outline no-underline">LinkedIn</a>
