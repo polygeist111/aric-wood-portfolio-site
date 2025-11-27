@@ -34,7 +34,7 @@ export default function Page() {
       </header>
       
       <main id="home">
-        <div className="max-w-400">
+        <div className="max-w-[400px]">
           <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
           {/*
           <h1 className="text-5xl leading-tight tracking-tight m-0" style={{color:"#cc0000"}}>Strategy to Reality</h1>
