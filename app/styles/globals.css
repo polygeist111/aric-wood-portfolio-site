@@ -12,10 +12,9 @@ see https://stackoverflow.com/questions/79499818/how-to-use-custom-color-themes-
   --color-transforma-red: #dc4144;
   --color-transforma-blue: #4198d6;
   --color-transforma-yellow: #f8ce47;
-  /*
+
   --color-pink: #eb6bd8;
   --color-tsunami: #77b4ea;
-  */
 }
 
 @layer theme {
@@ -37,10 +36,12 @@ general ig
 
 html, body { height: 100%; }
 html { scroll-padding-top: 64px; }
+
 body { @apply bg-white text-black antialiased; }
-.container { @apply max-w-6xl mx-auto px-6; }
 h1,h2,h3 { @apply tracking-tight; }
 a { @apply underline-offset-4; }
+
+.container { @apply max-w-6xl mx-auto px-6; }
 .btn { @apply inline-flex items-center rounded-full px-3 py-2 text-sm; }
 .btn-outline { @apply border border-black text-black no-underline; }
 .btn-solid { @apply bg-black text-white no-underline; }
