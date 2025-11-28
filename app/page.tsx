@@ -36,7 +36,7 @@ export default function Page() {
       <main id="home">
         <section id="hook" className="border-b border-gray-200">
           <div className="container py-16 grid grid-cols-[min-content_1fr] gap-6">
-            <div className="w-full max-w-[400px]">
+            <div className="w-full min-w-[200px] max-w-[400px]">
               <h1 className="text-5xl text-transforma-red leading-tight tracking-tight m-0">Strategy to Reality</h1>
               <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
               <div className="flex gap-3 flex-wrap">
@@ -44,8 +44,8 @@ export default function Page() {
                 <a href="#contact" className="btn btn-outline">Contact Me →</a>
               </div>
             </div>
-            <div className="w-full">
-              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain pt-3" />
+            <div className="w-full min-w-[600px]">
+              <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain object-top pt-3" />
             </div>
           </div>
         </section>
