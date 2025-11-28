@@ -1,9 +1,5 @@
 export const runtime = "edge";
 
-function isValidEmail(e: string) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
-}
-
 export async function POST(req: Request) {
   const form = await req.formData();
   const honey = String(form.get("_honeypot") || "");
@@ -47,4 +43,8 @@ export async function POST(req: Request) {
     return new Response("Failed to send", { status: 502 });
   }
   return new Response("OK", { status: 200 });
+}
+
+function isValidEmail(e: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
 }
