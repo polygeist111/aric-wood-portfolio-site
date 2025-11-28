@@ -1,8 +1,5 @@
 @import "tailwindcss"
 
-@tailwind base;
-@tailwind components;
-
 /* 
 define color themes 
 see https://stackoverflow.com/questions/79499818/how-to-use-custom-color-themes-in-tailwindcss-v4
@@ -33,8 +30,6 @@ see https://stackoverflow.com/questions/79499818/how-to-use-custom-color-themes-
     }
   }
 }
-
-@tailwind utilities;
 
 /*
 general ig
