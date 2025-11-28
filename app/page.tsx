@@ -35,16 +35,16 @@ export default function Page() {
       
       <main id="home">
         <section id="hook" className="border-b border-gray-200">
-          <div className="container py-8 md:py-16 md:grid md:grid-cols-[max-content_1fr] md:gap-6">
+          <div className="container py-8 double-header:py-16 double-header:grid double-header:grid-cols-[max-content_1fr] double-header:gap-6">
             <div className="w-full min-w-3xs max-w-[400px]">
-              <h1 className="text-5xl text-transforma-red leading-tight tracking-tight m-0 pb-3">Strategy to Reality</h1>
+              <h1 className="text-3xl double-header:text-5xl text-transforma-red leading-tight tracking-tight m-0 pb-3">Strategy to Reality</h1>
               <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
               <div className="flex gap-3 flex-wrap">
                 <a href="#publications" className="btn btn-solid">View Publications →</a>
                 <a href="#contact" className="btn btn-outline">Contact Me →</a>
               </div>
             </div>
-            <div className="w-full min-w-3xs max-w-[400px] md:min-w-[600px] md:max-w-none flex-1">
+            <div className="w-full min-w-3xs max-w-[400px] double-header:min-w-[400px] double-header:max-w-none">
               <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain object-top pt-3" />
             </div>
           </div>
