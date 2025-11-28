@@ -35,7 +35,7 @@ export default function Page() {
       
       <main id="home">
         <section id="hook" className="border-b border-gray-200">
-          <div className="container py-16 sm:grid sm:grid-cols-[min-content_1fr] sm:gap-6">
+          <div className="container py-8 md:py-16 md:grid md:grid-cols-[max-content_1fr] md:gap-6">
             <div className="w-full min-w-3xs max-w-[400px]">
               <h1 className="text-5xl text-transforma-red leading-tight tracking-tight m-0 pb-3">Strategy to Reality</h1>
               <p>My work and ideas across Strategy Activation, Change & Transformation, Vision & Strategic Planning, and Facilitation.</p>
@@ -44,14 +44,14 @@ export default function Page() {
                 <a href="#contact" className="btn btn-outline">Contact Me →</a>
               </div>
             </div>
-            <div className="w-full min-w-3xs sm:min-w-[600px] flex-1">
+            <div className="w-full min-w-3xs max-w-[400px] md:min-w-[600px] md:max-w-none flex-1">
               <img src="/arrows.jpeg" alt="colorful arrows" className="w-full h-full object-contain object-top pt-3" />
             </div>
           </div>
         </section>
 
         <section id="focus-areas" className="border-b border-gray-200">
-          <div className="container py-12">
+          <div className="container py-6 md:py-12">
             <h2 className="text-2xl m-0">Focus Areas</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mt-4">
               {focus.map((f) => (
@@ -65,7 +65,7 @@ export default function Page() {
         </section>
 
         <section id="publications" className="border-b border-gray-200">
-          <div className="container py-12">
+          <div className="container py-6 md:py-12">
             <h2 className="text-2xl m-0">Publications</h2>
             <p className="mt-2">Download playbooks, view webinars, or listen to podcasts.</p>
 
@@ -108,7 +108,7 @@ export default function Page() {
         </section>
 
         <section id="book" className="border-b border-gray-200">
-          <div className="container py-12 grid gap-6 lg:grid-cols-2">
+          <div className="container py-6 md:py-12 grid gap-6 lg:grid-cols-2">
             <div>
               <h2 className="text-2xl m-0">The Strategy Activation Playbook</h2>
               <p className="mt-3">Organizations spend over $160 billion a year hiring consultants to develop and execute strategies, and yet 80% of corporate strategies fail. Why? Because we forget the most important factor in successfully executing strategy: people.</p>
@@ -126,7 +126,7 @@ export default function Page() {
         </section>
 
         <section id="bio" className="border-b border-gray-200">
-          <div className="container py-12 grid gap-6 lg:grid-cols-5">
+          <div className="container py-6 md:py-12 grid gap-6 lg:grid-cols-5">
             <div className="lg:col-span-3">
               <h2 className="text-2xl m-0">Bio</h2>
               <p className="mt-3">Aric Wood is a seasoned leader in organizational transformation, with over two decades of experience guiding Fortune 500 companies through strategic change. As CEO of XPLANE, a global design consultancy, he bridged the gap between strategy and execution using visual thinking and human-centered design. He also served as Chief Strategy Officer of Tigerhall, an AI-enabled SaaS platform to accelerate change activation at scale.</p>
@@ -146,7 +146,7 @@ export default function Page() {
         </section>
 
         <section id="contact">
-          <div className="container py-12">
+          <div className="container py-6 md:py-12">
             <h2 className="text-2xl m-0">Contact</h2>
             <p className="mt-2">For speaking, advisory, or collaboration inquiries.</p>
             <form className="grid gap-3 sm:grid-cols-2 mt-4" method="POST" action="/api/contact">
