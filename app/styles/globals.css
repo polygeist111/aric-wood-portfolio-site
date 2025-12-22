@@ -24,12 +24,16 @@ general ig
   
   body { @apply bg-white text-black antialiased; }
   h1,h2,h3 { @apply tracking-tight; }
-  a { @apply underline-offset-4; }
+  a { @apply underline-offset-4 hover:underline; }
 }
 
+@utility dummy-link { @apply underline-offset-4 hover:underline }
+@utility all-300-ease-in-out { @apply transition-all duration-300 ease-in-out; }
 @utility container { @apply max-w-6xl mx-auto px-6; }
-@utility btn { @apply inline-flex items-center rounded-full px-3 py-2 text-sm; }
+@utility btn { @apply inline-flex items-center rounded-full px-3 py-2 text-sm hover:bg-transforma-blue all-300-ease-in-out; }
 @utility btn-outline { @apply border border-black text-black no-underline; }
 @utility btn-solid { @apply bg-black text-white no-underline; }
 @utility btn-red { @apply bg-transforma-red text-white no-underline; }
-@utility card { @apply border border-gray-200 hover:border-black rounded-2xl p-5 transition-all duration-300 ease-in-out hover:scale-105; }
+@utility card { @apply border border-gray-200 rounded-2xl p-5; }
+@utility selectable-card { @apply border border-gray-200 hover:border-black hover:scale-105 all-300-ease-in-out; }
+@utility selected-card { @apply bg-transforma-yellow border-black}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./styles/globals.css";
+import "./lib/card_expansion.js"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aricwood.com"),

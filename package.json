@@ -6,6 +6,7 @@
     "start": "serve out"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
