@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Scroll_Behavior_Polyfill from "./components/scroll-behaviour_polyfill";
 import "./styles/globals.css";
 import "./lib/card_expansion.js"
+
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aricwood.com"),
@@ -26,8 +28,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  // Kick off the polyfill! It will detect native support and only act if needed.
+
   return (
     <html lang="en">
+      <Scroll_Behavior_Polyfill/>
       <body className="bg-white text-black">
         {children}
         {gaId ? (

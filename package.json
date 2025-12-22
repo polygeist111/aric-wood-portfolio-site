@@ -18,10 +18,12 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "serve": "^14.2.5",
+    "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.17"
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/smoothscroll-polyfill": "^0.3.4"
   }
 }
